@@ -21,10 +21,45 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/styles/style.css" />
-    <title>Front-end Developer - Beulah Sokare</title>
+    <meta
+      name="description"
+      content="Beulah is a front-end engineer based in Lagos, Nigeria. Check out her work here"
+    />
+    <title>My Work - Beulah Sokare</title>
   </head>
 </html>
 <body>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/" title="Homepage">
+        <img
+          src="images/logo.png"
+          class="logo d-none d-md-block"
+          alt="Beulah Sokare Logo"
+        />
+        <img
+          src="images/logo-small.png"
+          class="logo d-block d-md-none"
+          alt="Beulah Sokare Logo"
+        />
+      </a>
+      <ul>
+        <li>
+          <a href="/" title="Homepage">Home</a>
+        </li>
+        <li>
+          <a href="/about.html" title="About Beulah">About</a>
+        </li>
+        <li class="active">
+          <a href="/work.html" title="Beulah's Work">Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Beulah">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
   <div class="content-container container">
     <div class="content">
       <h1 class="mb-5">Check out what I've been working on!</h1>
@@ -64,6 +99,63 @@
       </div>
     </div>
   </div>
+  <footer class="container">
+    <div
+      class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+    >
+      <div>
+        <h3>Work Inquiry</h3>
+        <p class="text-muted">Let's work together</p>
+      </div>
+      <div>
+        <a
+          href="/contact.html"
+          class="btn btn-branding mt-3"
+          title="Contact Beulah"
+          >Contact me</a
+        >
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mb-5">
+      <a
+        href="mailto:beulah.sokare@gmail.com"
+        class="email-link"
+        title="Email Beulah"
+        >beulah.sokare@gmail.com</a
+      >
+    </div>
+    <div class="social-links d-flex justify-content-center mb-5">
+      <a
+        href="https://www.linkedin.com/in/beulah-sokare-23104b128"
+        target="_blank"
+        title="Linkedin Profile"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a
+        href="https://github.com/beeulah-s"
+        title="GitHub Profile"
+        target="_blank"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a
+        href="https://twitter.com/devbeulah"
+        title="Twitter Profile"
+        target="_blank"
+        ><i class="fa-brands fa-twitter"></i
+      ></a>
+    </div>
+    <p class="text-center mt-5">
+      This project was coded by Beulah, and it is
+      <a
+        href="https://github.com/beeulah-s/my-portfolio.git"
+        title="GitHub Project Link"
+        target="_blank"
+        class="open-sourced"
+        >open-sourced</a
+      >
+    </p>
+  </footer>
+
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

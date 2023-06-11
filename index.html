@@ -21,35 +21,39 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/styles/style.css" />
+    <meta
+      name="description"
+      content="Beulah is a front-end engineer based in Lagos, Nigeria."
+    />
     <title>Front-end Developer - Beulah Sokare</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo.png"
             class="logo d-none d-md-block"
-            alt="Logo"
+            alt="Beulah Sokare Logo"
           />
           <img
             src="images/logo-small.png"
             class="logo d-block d-md-none"
-            alt="Logo"
+            alt="Beulah Sokare Logo"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Beulah">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Beulah's Work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Beulah">Contact</a>
           </li>
         </ul>
       </nav>
@@ -59,7 +63,9 @@
       <h1>Beulah Sokare</h1>
       <h2 class="mb-5">Front-end developer based in Lagos, Nigeria</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">Featured Projects</p>
@@ -68,7 +74,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/weather.png"
-            alt="Weather project"
+            alt="Weather project preview"
             class="img-fluid rounded"
           />
         </div>
@@ -81,7 +87,7 @@
               finibus eleifend. Nullam cursus justo nec magna pellentesque,
               ultrices bibendum mauris faucibus.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
       </div>
@@ -96,13 +102,13 @@
               finibus eleifend. Nullam cursus justo nec magna pellentesque,
               ultrices bibendum mauris faucibus.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="/images/journalling.png"
-            alt="Journalling project"
+            alt="Journalling project preview"
             class="img-fluid rounded"
           />
         </div>
@@ -112,7 +118,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/gym.png"
-            alt="Gym project"
+            alt="Gym project preview"
             class="img-fluid rounded"
           />
         </div>
@@ -125,7 +131,7 @@
               finibus eleifend. Nullam cursus justo nec magna pellentesque,
               ultrices bibendum mauris faucibus.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
       </div>
@@ -134,29 +140,56 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Beulah"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:beulah.sokare@gmail.com" class="email-link"
+          <a
+            href="mailto:beulah.sokare@gmail.com"
+            class="email-link"
+            title="Email Beulah"
             >beulah.sokare@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.instagram.com/devbeulah"
-            ><i class="fa-brands fa-instagram"></i
+          <a
+            href="https://www.linkedin.com/in/beulah-sokare-23104b128"
+            target="_blank"
+            title="Linkedin Profile"
+            ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://github.com/beeulah-s"
+          <a
+            href="https://github.com/beeulah-s"
+            title="GitHub Profile"
+            target="_blank"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://twitter.com/devbeulah"
+          <a
+            href="https://twitter.com/devbeulah"
+            title="Twitter Profile"
+            target="_blank"
             ><i class="fa-brands fa-twitter"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Beulah, and it is
+          <a
+            href="https://github.com/beeulah-s/my-portfolio.git"
+            title="GitHub Project Link"
+            target="_blank"
+            class="open-sourced"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
 
